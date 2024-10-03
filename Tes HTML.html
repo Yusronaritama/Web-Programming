@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online</title>
+    <style>
+        /* Background with pattern and gradient */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5 25%, #acb6e5 100%);
+            background-attachment: fixed;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+            background-image: url('https://www.transparenttextures.com/patterns/zig-zag.png');
+            background-repeat: repeat;
+        }
+
+        /* Header Styles */
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #333;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #0077b6;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #0077b6;
+        }
+
+        .header p {
+            margin: 5px 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        /* Section Styling */
+        section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f7f9fc;
+            border-radius: 10px;
+            border-left: 5px solid #0077b6;
+            background-image: linear-gradient(135deg, rgba(116, 235, 213, 0.2), rgba(172, 182, 229, 0.2));
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            color: #0077b6;
+            border-bottom: 3px solid #0077b6;
+            display: inline-block;
+        }
+
+        section p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        /* Experience and Education Item */
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3, .education-item h3 {
+            margin: 0;
+            font-size: 1.4em;
+            color: #023e8a;
+        }
+
+        .experience-item p, .education-item p {
+            margin: 5px 0;
+            color: #777;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-info a {
+            color: #0077b6;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            display: inline-block;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Social Media Icons */
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: #0077b6;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #023e8a;
+        }
+
+        /* Icons Styling */
+        .social-icons a i {
+            margin-right: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Bagian Header dengan Foto Profil -->
+        <div class="header">
+            <img src="C:\Users\Yusronaritama\Documents\Special\Self\Foto.jpg" alt="Foto Profil" class="profile-pic">
+            <div>
+                <h1>YUSRONARITAMA</h1>
+                <p>Mahasiswa Universitas Buana Perjuangan Karawang</p>
+            </div>
+        </div>
+
+        <!-- Bagian About Me -->
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Halo semuanya, saya Yusronaritama saya berasal dari purwakarta, saya dulu bersekolah disekolah SMAN 3 purwakarta dan saat ini saya berkuliah diuniversitas buana perjuangan karawang</p>
+        </section>
+
+        <!-- Bagian Pengalaman Kerja -->
+        <section class="experience">
+            <h2>Experience</h2>
+
+            <div class="experience-item">
+                <h3>Satria Muda Indonesia (SMI)</h3>
+                <p>Posisi: Pratama Madya (Putih merah strip I)| Tahun: 2017 - 2020</p>
+                <p></p>
+            </div>
+
+            <div class="experience-item">
+                <h3>Perisai Diri</h3>
+                <p>Posisi: Tingkat Calon Keluarga | Tahun: 2020 - 2023</p>
+                <p></p>
+            </div>
+        </section>
+
+        <!-- Bagian Pendidikan -->
+        <section class="education">
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <h3>Sekolah Menengah Atas Negri 3 Purwakarta</h3>
+                <p>Gelar: SMA | Tahun Lulus: 2023</p>
+                <p>IPA.</p>
+            </div>
+        </section>
+
+        <!-- Bagian Kontak dan Sosial Media -->
+        <div class="contact-info">
+            <h2>Contact Info</h2>
+            <a href="yusronaritama@gmail.com">Email: yusronaritama@gmail.com</a>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/username" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Yusronaritama" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Font Awesome CDN untuk ikon media sosial -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
